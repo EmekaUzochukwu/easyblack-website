@@ -1,0 +1,415 @@
+/* =========================================
+
+   EASYBLACK
+   Narrative Illusionism
+
+   Animation Stylesheet
+
+========================================= */
+
+
+/* =========================================
+   Hero Image Movement
+========================================= */
+
+
+.hero-image img {
+
+    animation: slowZoom 18s ease-in-out infinite alternate;
+
+}
+
+
+@keyframes slowZoom {
+
+    from {
+
+        transform: scale(1);
+
+    }
+
+
+    to {
+
+        transform: scale(1.08);
+
+    }
+
+}
+
+
+
+
+
+/* =========================================
+   Hero Text Entrance
+========================================= */
+
+
+.hero-content {
+
+    animation: heroReveal 2s ease forwards;
+
+}
+
+
+
+@keyframes heroReveal {
+
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(40px);
+
+    }
+
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+
+}
+
+
+
+
+
+/* =========================================
+   Navigation Appearance
+========================================= */
+
+
+.site-header {
+
+    animation: navigationFade 1.5s ease forwards;
+
+}
+
+
+
+@keyframes navigationFade {
+
+
+    from {
+
+        opacity: 0;
+
+    }
+
+
+    to {
+
+        opacity: 1;
+
+    }
+
+
+}
+
+
+
+
+
+/* =========================================
+   Scroll Reveal System
+
+   JavaScript will add .visible
+========================================= */
+
+
+.section {
+
+    opacity: 0;
+
+    transform: translateY(50px);
+
+    transition:
+
+        opacity 1.2s ease,
+
+        transform 1.2s ease;
+
+}
+
+
+
+.section.visible {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+}
+
+
+
+
+
+/* =========================================
+   Collection Cards
+========================================= */
+
+
+.collection-card {
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+
+
+.collection-card::before {
+
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+
+    linear-gradient(
+
+        120deg,
+
+        transparent,
+
+        rgba(216,199,160,.08),
+
+        transparent
+
+    );
+
+
+    transform: translateX(-100%);
+
+    transition: transform .8s ease;
+
+
+}
+
+
+
+.collection-card:hover::before {
+
+
+    transform: translateX(100%);
+
+
+}
+
+
+
+
+
+/* =========================================
+   Links
+========================================= */
+
+
+.text-link,
+.scroll-link {
+
+
+    position: relative;
+
+
+}
+
+
+
+.text-link::after,
+.scroll-link::after {
+
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: -8px;
+
+    width: 0;
+
+    height: 1px;
+
+    background: var(--accent);
+
+    transition: width .5s ease;
+
+
+}
+
+
+
+.text-link:hover::after,
+.scroll-link:hover::after {
+
+
+    width: 100%;
+
+
+}
+
+
+
+
+
+/* =========================================
+   Artwork Hover Preparation
+
+   Used later for galleries
+
+========================================= */
+
+
+.artwork-image {
+
+
+    overflow: hidden;
+
+
+}
+
+
+
+.artwork-image img {
+
+
+    transition:
+
+        transform 1s ease,
+
+        opacity .8s ease;
+
+
+}
+
+
+
+.artwork-image:hover img {
+
+
+    transform: scale(1.03);
+
+
+}
+
+
+
+
+
+
+
+/* =========================================
+   Page Transition
+
+========================================= */
+
+
+body {
+
+
+    animation: pageLoad 1s ease;
+
+
+}
+
+
+
+@keyframes pageLoad {
+
+
+    from {
+
+        opacity: 0;
+
+    }
+
+
+    to {
+
+        opacity: 1;
+
+    }
+
+
+}
+
+
+
+
+
+/* =========================================
+   Cursor Interaction
+
+========================================= */
+
+
+a {
+
+
+    transition:
+
+        color .4s ease,
+
+        opacity .4s ease;
+
+
+}
+
+
+
+a:hover {
+
+
+    opacity: .85;
+
+
+}
+
+
+
+
+
+
+
+/* =========================================
+   Reduced Motion Accessibility
+
+========================================= */
+
+
+@media (prefers-reduced-motion: reduce) {
+
+
+    *,
+    *::before,
+    *::after {
+
+
+        animation-duration: .01ms !important;
+
+        animation-iteration-count: 1 !important;
+
+        transition-duration: .01ms !important;
+
+
+        scroll-behavior: auto !important;
+
+
+    }
+
+
+}
