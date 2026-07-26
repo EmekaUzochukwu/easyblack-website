@@ -621,3 +621,20 @@ p {
     color: var(--text);
 
 }
+
+
+/* =========================================
+   Header Scroll State
+========================================= */
+
+.site-header.scrolled {
+
+    background: rgba(14,14,14,0.85);
+
+    backdrop-filter: blur(10px);
+
+    border-bottom: 1px solid var(--line);
+
+    transition: all .4s ease;
+
+}
