@@ -1,0 +1,348 @@
+/* =========================================
+
+   EASYBLACK
+   Artwork Gallery System
+
+========================================= */
+
+
+
+/* =========================================
+   FEATURED GALLERY GRID
+========================================= */
+
+
+.featured-gallery {
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(12, 1fr);
+
+    gap:3rem;
+
+    align-items:start;
+
+}
+
+
+
+
+
+/* =========================================
+   ARTWORK CARD
+========================================= */
+
+
+.artwork-card {
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+
+
+/*
+    Create editorial rhythm
+
+    First artwork:
+    large feature
+
+*/
+
+
+.artwork-card:nth-child(1) {
+
+    grid-column:
+
+    span 7;
+
+}
+
+
+
+/*
+    Second artwork
+*/
+
+.artwork-card:nth-child(2) {
+
+    grid-column:
+
+    span 5;
+
+    margin-top:8rem;
+
+}
+
+
+
+/*
+    Third artwork
+*/
+
+.artwork-card:nth-child(3) {
+
+    grid-column:
+
+    span 5;
+
+}
+
+
+
+/*
+    Fourth artwork
+*/
+
+.artwork-card:nth-child(4) {
+
+    grid-column:
+
+    span 7;
+
+    margin-top:5rem;
+
+}
+
+
+
+/*
+    Fifth artwork
+*/
+
+.artwork-card:nth-child(5) {
+
+    grid-column:
+
+    span 6;
+
+}
+
+
+
+/*
+    Sixth artwork
+*/
+
+.artwork-card:nth-child(6) {
+
+    grid-column:
+
+    span 6;
+
+    margin-top:6rem;
+
+}
+
+
+
+
+
+
+/* =========================================
+   IMAGE CONTAINER
+========================================= */
+
+
+.artwork-image {
+
+    overflow:hidden;
+
+    background:#111;
+
+}
+
+
+
+.artwork-image img {
+
+    width:100%;
+
+    height:auto;
+
+    transition:
+
+    transform 1.2s cubic-bezier(.2,.8,.2,1),
+
+    opacity .8s ease;
+
+}
+
+
+
+/*
+    Gallery interaction
+
+*/
+
+
+.artwork-link:hover img {
+
+    transform:scale(1.04);
+
+    opacity:.85;
+
+}
+
+
+
+
+
+
+/* =========================================
+   ARTWORK INFORMATION
+========================================= */
+
+
+.artwork-details {
+
+    padding-top:1.5rem;
+
+}
+
+
+
+.artwork-details h3 {
+
+    font-size:
+
+    clamp(1.5rem,2vw,2rem);
+
+    margin-bottom:.4rem;
+
+}
+
+
+
+.artwork-details p {
+
+    font-size:.9rem;
+
+    letter-spacing:.08em;
+
+    text-transform:uppercase;
+
+    color:#999;
+
+}
+
+
+
+
+
+
+/* =========================================
+   IMAGE REVEAL EFFECT
+
+========================================= */
+
+
+.artwork-card {
+
+    opacity:0;
+
+    transform:
+
+    translateY(40px);
+
+    transition:
+
+    opacity 1s ease,
+
+    transform 1s ease;
+
+}
+
+
+
+.artwork-card.visible {
+
+    opacity:1;
+
+    transform:
+
+    translateY(0);
+
+}
+
+
+
+
+
+
+/* =========================================
+   ARTWORK HOVER TITLE EFFECT
+
+========================================= */
+
+
+.artwork-link {
+
+    display:block;
+
+}
+
+
+
+.artwork-details {
+
+    transition:
+
+    transform .5s ease;
+
+}
+
+
+
+.artwork-link:hover .artwork-details {
+
+    transform:
+
+    translateY(-5px);
+
+}
+
+
+
+
+
+/* =========================================
+   MOBILE OVERRIDE
+
+========================================= */
+
+
+@media(max-width:900px){
+
+
+.featured-gallery {
+
+    display:grid;
+
+    grid-template-columns:
+
+    1fr;
+
+    gap:4rem;
+
+}
+
+
+
+.artwork-card,
+.artwork-card:nth-child(n) {
+
+    grid-column:
+
+    span 1;
+
+    margin-top:0;
+
+}
+
+
+}
