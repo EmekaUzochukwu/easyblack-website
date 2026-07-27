@@ -1,0 +1,255 @@
+/* =========================================
+
+   EASYBLACK
+   Contact Page
+
+========================================= */
+
+
+
+.contact-page {
+
+    min-height:100vh;
+
+    width:min(900px,85%);
+
+    margin:auto;
+
+    padding-top:12rem;
+
+    padding-bottom:8rem;
+
+    text-align:center;
+
+}
+
+
+
+.contact-page h1 {
+
+    font-family:
+    "Cormorant Garamond",
+    serif;
+
+    font-size:
+
+    clamp(4rem,8vw,7rem);
+
+    margin-bottom:2rem;
+
+}
+
+
+
+.contact-page > p {
+
+    font-size:1.3rem;
+
+    margin-bottom:3rem;
+
+}
+
+
+
+.contact-page > a {
+
+    display:block;
+
+    font-family:
+    "Cormorant Garamond",
+    serif;
+
+    font-size:
+
+    clamp(1.8rem,4vw,3rem);
+
+    margin-bottom:3rem;
+
+}
+
+
+
+.contact-page > a:hover {
+
+    opacity:.7;
+
+}
+
+
+
+
+
+/* =========================================
+   SOCIAL LINKS
+========================================= */
+
+
+.contact-page .social-links {
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:3rem;
+
+    margin-bottom:5rem;
+
+}
+
+
+
+.contact-page .social-links a {
+
+    text-transform:uppercase;
+
+    letter-spacing:.15em;
+
+    font-size:.9rem;
+
+}
+
+
+
+
+
+/* =========================================
+   FORM
+========================================= */
+
+
+.contact-form {
+
+    width:min(600px,100%);
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:1.5rem;
+
+}
+
+
+
+.contact-form input,
+.contact-form textarea {
+
+
+    background:#111;
+
+    border:
+
+    1px solid rgba(255,255,255,.2);
+
+
+    padding:1.2rem;
+
+    color:white;
+
+    font-family:
+
+    "Inter",
+    sans-serif;
+
+
+    font-size:1rem;
+
+}
+
+
+
+.contact-form textarea {
+
+    min-height:180px;
+
+    resize:vertical;
+
+}
+
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+
+    outline:none;
+
+    border-color:white;
+
+}
+
+
+
+
+.contact-form button {
+
+
+    background:none;
+
+    border:
+
+    1px solid rgba(255,255,255,.5);
+
+
+    color:white;
+
+
+    padding:
+
+    1.2rem;
+
+
+    text-transform:uppercase;
+
+
+    letter-spacing:.15em;
+
+
+    cursor:pointer;
+
+
+    transition:.4s ease;
+
+
+}
+
+
+
+.contact-form button:hover {
+
+
+    background:white;
+
+    color:black;
+
+
+}
+
+
+
+
+
+@media(max-width:700px){
+
+
+.contact-page {
+
+    padding-top:8rem;
+
+}
+
+
+
+.contact-page .social-links {
+
+
+    flex-direction:column;
+
+    gap:1.5rem;
+
+
+}
+
+
+}

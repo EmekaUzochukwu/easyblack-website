@@ -1,0 +1,654 @@
+/* =========================================
+
+   EASYBLACK
+   Narrative Illusionism
+
+   Core Stylesheet
+
+========================================= */
+
+
+/* =========================================
+   RESET
+========================================= */
+
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+body {
+
+    background: #0B0B0B;
+
+    color: #F3F2EE;
+
+    font-family: "Inter", sans-serif;
+
+    font-weight: 300;
+
+    line-height: 1.7;
+
+    overflow-x: hidden;
+
+}
+
+
+img {
+
+    max-width: 100%;
+
+    display: block;
+
+}
+
+
+a {
+
+    color: inherit;
+
+    text-decoration: none;
+
+}
+
+
+h1,
+h2,
+h3 {
+
+    font-family: "Cormorant Garamond", serif;
+
+    font-weight: 400;
+
+    letter-spacing: 0.02em;
+
+}
+
+
+h2 {
+
+    font-size: clamp(2.5rem, 5vw, 4rem);
+
+    margin-bottom: 3rem;
+
+}
+
+
+p {
+
+    color: #C8C6C0;
+
+}
+
+
+
+
+
+/* =========================================
+   GLOBAL LAYOUT
+========================================= */
+
+
+.content {
+
+    width: min(1100px, 85%);
+
+    margin: auto;
+
+}
+
+
+section {
+
+    padding: 8rem 0;
+
+}
+
+
+.section-heading {
+
+    width: min(1100px, 85%);
+
+    margin: auto;
+
+}
+
+
+
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+
+.site-header {
+
+    position: fixed;
+
+    top: 0;
+
+    width: 100%;
+
+    z-index: 1000;
+
+    padding: 2rem 5%;
+
+    transition: .5s ease;
+
+}
+
+
+.header-inner {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+
+
+.logo {
+
+    font-family:
+    "Cormorant Garamond",
+    serif;
+
+    font-size: 2rem;
+
+    letter-spacing: .25em;
+
+}
+
+
+
+.main-nav {
+
+    display: flex;
+
+    gap: 2.5rem;
+
+}
+
+
+.main-nav a {
+
+    font-size: .9rem;
+
+    color: #D8D6D0;
+
+    transition: .3s ease;
+
+}
+
+
+.main-nav a:hover {
+
+    color: white;
+
+}
+
+
+
+
+
+.menu-button {
+
+    display:none;
+
+    background:none;
+
+    border:none;
+
+    color:white;
+
+    font-size:1.5rem;
+
+}
+
+
+
+
+
+
+
+/* =========================================
+   HERO
+========================================= */
+
+
+.hero {
+
+    height:100vh;
+
+    position:relative;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    overflow:hidden;
+
+}
+
+
+
+.hero img {
+
+    position:absolute;
+
+    inset:0;
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    animation:
+
+    heroZoom 20s infinite alternate;
+
+}
+
+
+
+.hero-overlay {
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+    linear-gradient(
+
+    rgba(0,0,0,.35),
+
+    rgba(0,0,0,.75)
+
+    );
+
+}
+
+
+
+.hero-content {
+
+    position:relative;
+
+    text-align:center;
+
+    z-index:2;
+
+}
+
+
+
+.hero-content h1 {
+
+    font-size:
+
+    clamp(4rem,10vw,9rem);
+
+    letter-spacing:.15em;
+
+}
+
+
+
+.hero-content p {
+
+    font-size:1.3rem;
+
+    margin:1.5rem 0 3rem;
+
+    color:#ddd;
+
+}
+
+
+
+.hero-button {
+
+    border:1px solid rgba(255,255,255,.5);
+
+    padding:1rem 2.5rem;
+
+    display:inline-block;
+
+    transition:.4s ease;
+
+}
+
+
+
+.hero-button:hover {
+
+    background:white;
+
+    color:black;
+
+}
+
+
+
+
+
+
+/* =========================================
+   FEATURED SECTION
+========================================= */
+
+
+.featured-section {
+
+    background:#0B0B0B;
+
+}
+
+
+
+.featured-gallery {
+
+    width:90%;
+
+    margin:auto;
+
+}
+
+
+
+
+
+/* =========================================
+   NARRATIVE SECTION
+========================================= */
+
+
+.narrative-section {
+
+    background:#111111;
+
+}
+
+
+
+.narrative-section .lead {
+
+    font-family:
+
+    "Cormorant Garamond",
+    serif;
+
+    font-size:2rem;
+
+    line-height:1.5;
+
+    color:#EEE;
+
+    margin-bottom:2rem;
+
+}
+
+
+
+
+
+/* =========================================
+   COLLECTIONS
+========================================= */
+
+
+.collections-section {
+
+    width:85%;
+
+    margin:auto;
+
+}
+
+
+
+.collections-grid {
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(2,1fr);
+
+    gap:2rem;
+
+}
+
+
+
+.collection-card {
+
+    min-height:300px;
+
+    border:
+
+    1px solid rgba(255,255,255,.15);
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    transition:.5s ease;
+
+}
+
+
+
+.collection-card:hover {
+
+    background:#151515;
+
+    transform:translateY(-10px);
+
+}
+
+
+
+.collection-card h3 {
+
+    font-size:3rem;
+
+}
+
+
+
+
+
+/* =========================================
+   EXHIBITIONS
+========================================= */
+
+
+.timeline {
+
+    width:min(800px,85%);
+
+    margin:auto;
+
+}
+
+
+
+.timeline-item {
+
+    padding:
+
+    2rem 0;
+
+    border-bottom:
+
+    1px solid rgba(255,255,255,.15);
+
+}
+
+
+
+.timeline-item span {
+
+    color:#BCA47A;
+
+}
+
+
+
+
+
+/* =========================================
+   BIOGRAPHY
+========================================= */
+
+
+.biography-section {
+
+    background:#111;
+
+}
+
+
+
+.text-link {
+
+    display:inline-block;
+
+    margin-top:2rem;
+
+    border-bottom:1px solid white;
+
+}
+
+
+
+
+
+/* =========================================
+   CONTACT
+========================================= */
+
+
+.contact-section {
+
+    text-align:center;
+
+}
+
+
+
+.email-link {
+
+    display:block;
+
+    margin:2rem;
+
+    font-family:
+
+    "Cormorant Garamond",
+    serif;
+
+    font-size:2.5rem;
+
+}
+
+
+
+.social-links {
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:2rem;
+
+}
+
+
+
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+
+footer {
+
+    border-top:
+
+    1px solid rgba(255,255,255,.1);
+
+    padding:3rem 5%;
+
+}
+
+
+
+.footer-inner {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    color:#999;
+
+    font-size:.9rem;
+
+}
+
+
+
+
+
+
+/* =========================================
+   ANIMATION
+========================================= */
+
+
+@keyframes heroZoom {
+
+
+from {
+
+transform:scale(1);
+
+}
+
+
+to {
+
+transform:scale(1.08);
+
+}
+
+
+}

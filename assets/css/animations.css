@@ -1,0 +1,483 @@
+/* =========================================
+
+   EASYBLACK
+   Animation System
+
+   Narrative Illusionism
+
+========================================= */
+
+
+
+/* =========================================
+   PAGE INTRODUCTION
+========================================= */
+
+
+body {
+
+    animation:
+
+    pageReveal 1.2s ease forwards;
+
+}
+
+
+
+@keyframes pageReveal {
+
+    from {
+
+        opacity:0;
+
+    }
+
+
+    to {
+
+        opacity:1;
+
+    }
+
+}
+
+
+
+
+
+/* =========================================
+   HERO TEXT REVEAL
+========================================= */
+
+
+.hero-content h1 {
+
+    animation:
+
+    fadeUp 1.5s ease forwards;
+
+    animation-delay:.4s;
+
+    opacity:0;
+
+}
+
+
+
+.hero-content p {
+
+    animation:
+
+    fadeUp 1.5s ease forwards;
+
+    animation-delay:.8s;
+
+    opacity:0;
+
+}
+
+
+
+.hero-button {
+
+    animation:
+
+    fadeUp 1.5s ease forwards;
+
+    animation-delay:1.2s;
+
+    opacity:0;
+
+}
+
+
+
+
+
+/* =========================================
+   GENERAL REVEAL ANIMATION
+========================================= */
+
+
+@keyframes fadeUp {
+
+
+from {
+
+    opacity:0;
+
+    transform:
+
+    translateY(40px);
+
+}
+
+
+
+to {
+
+    opacity:1;
+
+    transform:
+
+    translateY(0);
+
+}
+
+
+}
+
+
+
+
+
+/* =========================================
+   SECTION HEADINGS
+========================================= */
+
+
+.section-heading h2,
+.narrative-section h2,
+.collections-section h2,
+.exhibitions-section h2,
+.biography-section h2,
+.contact-section h2 {
+
+
+    opacity:0;
+
+    transform:
+
+    translateY(30px);
+
+    transition:
+
+    opacity 1s ease,
+
+    transform 1s ease;
+
+}
+
+
+
+.section-heading h2.visible,
+.narrative-section h2.visible,
+.collections-section h2.visible,
+.exhibitions-section h2.visible,
+.biography-section h2.visible,
+.contact-section h2.visible {
+
+
+    opacity:1;
+
+    transform:
+
+    translateY(0);
+
+}
+
+
+
+
+
+/* =========================================
+   SLOW IMAGE MOVEMENT
+
+   Gallery atmosphere
+
+========================================= */
+
+
+.artwork-image {
+
+    overflow:hidden;
+
+}
+
+
+
+.artwork-image img {
+
+    transform:
+
+    scale(1);
+
+}
+
+
+
+.artwork-link:hover .artwork-image img {
+
+
+    transform:
+
+    scale(1.03);
+
+
+}
+
+
+
+
+
+/* =========================================
+   COLLECTION CARD MOTION
+========================================= */
+
+
+.collection-card {
+
+
+    transition:
+
+    transform .8s ease,
+
+    background .8s ease;
+
+
+}
+
+
+
+.collection-card:hover {
+
+
+    transform:
+
+    translateY(-12px);
+
+
+}
+
+
+
+
+
+/* =========================================
+   LINK UNDERLINE EFFECT
+
+========================================= */
+
+
+.main-nav a,
+.text-link,
+.social-links a {
+
+
+    position:relative;
+
+
+}
+
+
+
+.main-nav a::after,
+.text-link::after,
+.social-links a::after {
+
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-5px;
+
+    width:0;
+
+    height:1px;
+
+    background:white;
+
+    transition:
+
+    width .5s ease;
+
+
+}
+
+
+
+.main-nav a:hover::after,
+.text-link:hover::after,
+.social-links a:hover::after {
+
+
+    width:100%;
+
+
+}
+
+
+
+
+
+/* =========================================
+   HERO IMAGE MOTION
+
+========================================= */
+
+
+.hero img {
+
+
+    animation:
+
+    slowZoom 25s ease-in-out infinite alternate;
+
+
+}
+
+
+
+@keyframes slowZoom {
+
+
+from {
+
+
+    transform:
+
+    scale(1);
+
+
+}
+
+
+
+to {
+
+
+    transform:
+
+    scale(1.08);
+
+
+}
+
+
+}
+
+
+
+
+
+/* =========================================
+   SCROLL INDICATOR
+
+========================================= */
+
+
+.hero::after {
+
+
+    content:"↓";
+
+    position:absolute;
+
+    bottom:40px;
+
+    left:50%;
+
+    transform:
+
+    translateX(-50%);
+
+
+    font-size:2rem;
+
+    color:#fff;
+
+    opacity:.7;
+
+
+    animation:
+
+    scrollMove 2s infinite;
+
+
+}
+
+
+
+
+@keyframes scrollMove {
+
+
+0% {
+
+
+    transform:
+
+    translate(-50%,0);
+
+
+    opacity:.4;
+
+
+}
+
+
+
+50% {
+
+
+    transform:
+
+    translate(-50%,10px);
+
+
+    opacity:1;
+
+
+}
+
+
+
+100% {
+
+
+    transform:
+
+    translate(-50%,0);
+
+
+    opacity:.4;
+
+
+}
+
+
+}
+
+
+
+
+
+
+/* =========================================
+   REDUCED MOTION ACCESSIBILITY
+
+========================================= */
+
+
+@media(prefers-reduced-motion:reduce){
+
+
+*,
+*::before,
+*::after {
+
+
+    animation-duration:.01ms!important;
+
+    animation-iteration-count:1!important;
+
+    transition-duration:.01ms!important;
+
+
+}
+
+
+}
