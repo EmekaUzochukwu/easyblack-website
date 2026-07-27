@@ -1,192 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    <!-- Basic Metadata -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>EASYBLACK | Narrative Illusionism</title>
 
-    <meta 
-        name="description" 
-        content="Easyblack is a Nigerian-born, Poland-based self-taught painter working primarily in oil on canvas. Through Narrative Illusionism, he constructs portraits and identities through fragmented imagery."
-    >
-
-    <meta 
-        name="keywords" 
-        content="Easyblack, Nigerian artist, Polish artist, contemporary painter, oil painting, Narrative Illusionism, contemporary art"
-    >
+    <meta name="description"
+        content="Easyblack is a Nigerian-born, Poland-based contemporary painter whose practice explores identity through Narrative Illusionism.">
 
     <meta name="author" content="Easyblack">
 
+    <meta property="og:title" content="EASYBLACK">
 
-    <!-- Open Graph (Social Sharing) -->
+    <meta property="og:description"
+        content="Narrative Illusionism | Contemporary Oil Paintings">
 
-    <meta property="og:title" content="EASYBLACK | Narrative Illusionism">
-
-    <meta 
-        property="og:description" 
-        content="A digital exhibition exploring identity, memory, and human experience through fragmented imagery."
-    >
-
-    <meta 
-        property="og:image" 
-        content="assets/images/hero/tears-empty-plate-large.jpg"
-    >
+    <meta property="og:image"
+        content="assets/images/artworks/tears-empty-plate/large.jpg">
 
     <meta property="og:type" content="website">
-
-
-    <!-- Favicon -->
-
-    <link 
-        rel="icon" 
-        href="assets/images/favicon.svg" 
-        type="image/svg+xml"
-    >
-
-
-    <!-- Google Fonts -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link 
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" 
-        rel="stylesheet"
-    >
-
-
-    <!-- Main Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/gallery.css">
 
     <link rel="stylesheet" href="assets/css/animations.css">
 
     <link rel="stylesheet" href="assets/css/responsive.css">
 
-
 </head>
-
 
 <body>
 
-
-<!-- =========================
-     Navigation
-========================= -->
-
-
 <header class="site-header">
 
-    <nav class="navigation">
+    <div class="header-inner">
 
         <a href="index.html" class="logo">
             EASYBLACK
         </a>
 
+        <button class="menu-button" aria-label="Open Navigation">
+            ☰
+        </button>
 
-        <ul class="nav-links">
+        <nav class="main-nav">
 
-            <li>
-                <a href="#works">Works</a>
-            </li>
+            <a href="#featured">Works</a>
 
-            <li>
-                <a href="#exhibitions">Exhibitions</a>
-            </li>
+            <a href="#narrative">Narrative</a>
 
-            <li>
-                <a href="#about">About</a>
-            </li>
+            <a href="#collections">Collections</a>
 
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
+            <a href="#exhibitions">Exhibitions</a>
 
-        </ul>
+            <a href="#biography">Biography</a>
 
+            <a href="#contact">Contact</a>
 
-    </nav>
+        </nav>
 
+    </div>
 
 </header>
 
 
 
 
-<!-- =========================
-     Hero Section
-========================= -->
-
-
-<main>
-
 
 <section class="hero">
 
+    <picture>
 
-    <picture class="hero-image">
+        <source media="(max-width:700px)"
+            srcset="assets/images/artworks/tears-empty-plate/small.jpg">
 
-
-        <!-- Mobile Image -->
-
-        <source
-            media="(max-width: 600px)"
-            srcset="assets/images/hero/tears-empty-plate-small.jpg"
-        >
-
-
-        <!-- Tablet Image -->
-
-        <source
-            media="(max-width: 1200px)"
-            srcset="assets/images/hero/tears-empty-plate-medium.jpg"
-        >
-
-
-        <!-- Desktop Image -->
+        <source media="(max-width:1200px)"
+            srcset="assets/images/artworks/tears-empty-plate/medium.jpg">
 
         <img
-            src="assets/images/hero/tears-empty-plate-large.jpg"
-            alt="Tears of an Empty Plate by Easyblack"
-            loading="eager"
-        >
-
+            src="assets/images/artworks/tears-empty-plate/large.jpg"
+            alt="Tears of an Empty Plate by Easyblack">
 
     </picture>
 
-
-
     <div class="hero-overlay"></div>
-
-
 
     <div class="hero-content">
 
+        <h1>EASYBLACK</h1>
 
-        <h1>
-            EASYBLACK
-        </h1>
+        <p>Narrative Illusionism</p>
 
+        <a href="#featured" class="hero-button">
 
-        <p>
-            Narrative Illusionism
-        </p>
+            Enter Collection
 
-
-        <a 
-            href="#introduction" 
-            class="scroll-link"
-        >
-            Scroll to Begin
         </a>
-
 
     </div>
 
+</section>
+
+
+
+
+
+<section
+id="featured"
+class="featured-section">
+
+<div class="section-heading">
+
+<h2>
+
+Featured Paintings
+
+</h2>
+
+</div>
+
+<div
+id="featured-gallery"
+class="featured-gallery">
+
+<!-- generated automatically -->
+
+</div>
 
 </section>
 
@@ -194,212 +144,29 @@
 
 
 
-<!-- =========================
-     Introduction
-========================= -->
+<section
+id="narrative"
+class="narrative-section">
 
-
-<section 
-    id="introduction" 
-    class="introduction section"
->
-
-
-<div class="container">
-
+<div class="content">
 
 <h2>
-    Narrative Illusionism
+
+Narrative Illusionism
+
 </h2>
 
+<p class="lead">
 
-<p class="large-text">
-
-    Narrative Illusionism is a painting approach that constructs portraits through fragmented imagery, allowing individual visual elements to unite into a complete identity while revealing the stories and experiences that shape the subject.
+Narrative Illusionism constructs portraits through fragmented imagery, allowing separate visual elements to unite into a complete identity while revealing the stories and experiences that shape each subject.
 
 </p>
-
 
 <p>
 
-    Working primarily in oil on canvas, Easyblack explores identity through layered compositions inspired by real-life events and the lived experiences of people. Fragmentation becomes a reflection of the complexity of human existence — the memories, emotions, and circumstances that remain unseen beneath the surface.
+Working primarily in oil on canvas, Easyblack draws inspiration from real-life events and lived experiences. Fragmentation becomes a metaphor for memory, identity, resilience and human complexity, inviting viewers to slow down and discover what lies beneath the surface.
 
 </p>
-
-
-</div>
-
-
-</section>
-
-
-
-<!-- =========================
-     Featured Works Gallery
-========================= -->
-
-<section class="featured-gallery section">
-
-<div class="container">
-
-<h2>
-Featured Works
-</h2>
-
-
-<div class="artwork-grid">
-
-
-<article class="artwork-card">
-
-<img 
-src="assets/images/featured/belindas-secret.jpg"
-alt="Belinda's Secret, 2025, oil on canvas by Easyblack"
-loading="lazy"
->
-
-<div class="artwork-info">
-
-<h3>
-Belinda's Secret
-</h3>
-
-<p>
-2025 · Oil on Canvas
-</p>
-
-</div>
-
-</article>
-
-
-
-
-<article class="artwork-card">
-
-<img 
-src="assets/images/featured/to-die-for.jpg"
-alt="To Die For, 2024, oil on canvas by Easyblack"
-loading="lazy"
->
-
-<div class="artwork-info">
-
-<h3>
-To Die For
-</h3>
-
-<p>
-2024 · Oil on Canvas
-</p>
-
-</div>
-
-</article>
-
-
-
-
-<article class="artwork-card">
-
-<img 
-src="assets/images/featured/smoke-and-strips.jpg"
-alt="Smoke and Strips, 2023, oil on canvas by Easyblack"
-loading="lazy"
->
-
-<div class="artwork-info">
-
-<h3>
-Smoke and Strips
-</h3>
-
-<p>
-2023 · Oil on Canvas
-</p>
-
-</div>
-
-</article>
-
-
-
-
-<article class="artwork-card">
-
-<img 
-src="assets/images/featured/tears-empty-plate.jpg"
-alt="Tears of an Empty Plate, 2026, oil on canvas by Easyblack"
-loading="lazy"
->
-
-<div class="artwork-info">
-
-<h3>
-Tears of an Empty Plate
-</h3>
-
-<p>
-2026 · Oil on Canvas
-</p>
-
-</div>
-
-</article>
-
-
-
-
-<article class="artwork-card">
-
-<img 
-src="assets/images/featured/between-two-worlds.jpg"
-alt="Between Two Worlds, 2026, oil on canvas by Easyblack"
-loading="lazy"
->
-
-<div class="artwork-info">
-
-<h3>
-Between Two Worlds
-</h3>
-
-<p>
-2026 · Oil on Canvas
-</p>
-
-</div>
-
-</article>
-
-
-
-
-<article class="artwork-card">
-
-<img 
-src="assets/images/featured/raised-in-chaos.jpg"
-alt="Raised in Chaos, 2026, oil on canvas by Easyblack"
-loading="lazy"
->
-
-<div class="artwork-info">
-
-<h3>
-Raised in Chaos
-</h3>
-
-<p>
-2026 · Oil on Canvas
-</p>
-
-</div>
-
-</article>
-
-
-
-</div>
 
 </div>
 
@@ -407,87 +174,57 @@ Raised in Chaos
 
 
 
-<!-- =========================
-     Works Section
-========================= -->
 
 
-<section 
-    id="works" 
-    class="works section"
->
-
-
-<div class="container">
-
+<section
+id="collections"
+class="collections-section">
 
 <h2>
-    Selected Works
+
+Collections
+
 </h2>
 
+<div class="collections-grid">
 
-
-<div class="collection-grid">
-
-
-
-<a 
-href="works/prerequisite.html" 
+<a
 class="collection-card"
->
-
+href="collections/prerequisite.html">
 
 <h3>
-    Prerequisite
+
+Prerequisite
+
 </h3>
 
-
 <p>
-    2021 — 2025
+
+2021–2025
+
 </p>
-
-
-<span>
-    Enter Collection →
-</span>
-
 
 </a>
 
-
-
-
-
-<a 
-href="works/tribulations.html" 
+<a
 class="collection-card"
->
-
+href="collections/tribulations.html">
 
 <h3>
-    Tribulations of a Ghetto Child
+
+Tribulations of a Ghetto Child
+
 </h3>
 
-
 <p>
-    2026 —
+
+2026–
+
 </p>
-
-
-<span>
-    Enter Collection →
-</span>
-
 
 </a>
 
-
-
 </div>
-
-
-</div>
-
 
 </section>
 
@@ -495,81 +232,55 @@ class="collection-card"
 
 
 
-
-
-<!-- =========================
-     Exhibitions
-========================= -->
-
-
-<section 
-id="exhibitions" 
-class="exhibitions section"
->
-
-
-<div class="container">
-
+<section
+id="exhibitions"
+class="exhibitions-section">
 
 <h2>
-    Exhibitions
+
+Selected Exhibitions
+
 </h2>
-
-
 
 <div class="timeline">
 
+<div class="timeline-item">
 
-<article class="timeline-item">
-
-
-<h3>
-    2026
-</h3>
-
-
-<p>
-    Motherland Atelier
-</p>
-
-
-<p>
-    Open Studio Exhibition
-</p>
-
-
-</article>
-
-
-
-
-<article class="timeline-item">
-
+<span>2026</span>
 
 <h3>
-    2024
+
+Motherland Atelier
+
 </h3>
 
-
 <p>
-    The Holy Art Gallery
+
+Open Studio Exhibition
+
 </p>
-
-
-<p>
-    London
-</p>
-
-
-</article>
-
-
 
 </div>
 
+<div class="timeline-item">
+
+<span>2024</span>
+
+<h3>
+
+The Holy Art Gallery
+
+</h3>
+
+<p>
+
+London
+
+</p>
 
 </div>
 
+</div>
 
 </section>
 
@@ -577,43 +288,33 @@ class="exhibitions section"
 
 
 
+<section
+id="biography"
+class="biography-section">
 
-<!-- =========================
-     About Preview
-========================= -->
-
-
-<section 
-id="about" 
-class="about section"
->
-
-
-<div class="container">
-
+<div class="content">
 
 <h2>
-    About Easyblack
-</h2>
 
+Biography
+
+</h2>
 
 <p>
 
-Easyblack is a Nigerian-born, Poland-based self-taught painter working primarily in oil on canvas. His practice explores identity through Narrative Illusionism, creating portraits from fragmented imagery that reveal the stories and experiences shaping each individual.
+Easyblack is a Nigerian-born, Poland-based self-taught painter working primarily in oil on canvas. His work investigates identity through Narrative Illusionism, creating portraits built from fragmented imagery that reveal the experiences shaping each individual.
 
 </p>
 
+<a
+href="about.html"
+class="text-link">
 
-<a 
-href="about.html" 
-class="text-link"
->
-Read Biography →
+Read Full Biography →
+
 </a>
 
-
 </div>
-
 
 </section>
 
@@ -621,109 +322,87 @@ Read Biography →
 
 
 
-
-
-<!-- =========================
-     Contact
-========================= -->
-
-
-<section 
-id="contact" 
-class="contact section"
->
-
-
-<div class="container">
-
+<section
+id="contact"
+class="contact-section">
 
 <h2>
-    Contact
+
+Contact
+
 </h2>
 
-
 <p>
-    For commissions, exhibitions, and collaborations.
+
+For exhibitions, acquisitions, commissions and collaborations.
+
 </p>
 
+<a
+class="email-link"
+href="mailto:easyblackoffice@gmail.com">
 
-<a href="mailto:easyblackoffice@gmail.com">
-    easyblackoffice@gmail.com
+easyblackoffice@gmail.com
+
 </a>
-
-
 
 <div class="social-links">
 
-
-<a 
+<a
 href="https://instagram.com/easyblackoffice"
-target="_blank"
->
+target="_blank">
+
 Instagram
+
 </a>
 
-
-<a 
+<a
 href="https://x.com/easyblackoffice"
-target="_blank"
->
+target="_blank">
+
 X
+
 </a>
 
-
 </div>
-
-
-</div>
-
 
 </section>
 
 
 
 
-</main>
 
+<footer>
 
+<div class="footer-inner">
 
+<div>
 
+EASYBLACK
 
+</div>
 
-<!-- =========================
-     Footer
-========================= -->
+<div>
 
+Narrative Illusionism
 
-<footer class="footer">
+</div>
 
+<div>
 
-<p>
-    EASYBLACK
-</p>
+© 2026 EASYBLACK
 
+</div>
 
-<p>
-    Narrative Illusionism
-</p>
-
-
-<p>
-    © 2026 Easyblack. All rights reserved.
-</p>
-
+</div>
 
 </footer>
 
+<script src="assets/js/artworks.js"></script>
 
+<script src="assets/js/gallery.js"></script>
 
-
-
-
-<!-- JavaScript -->
-
-<script src="assets/js/main.js"></script>
-
+<script src="assets/js/app.js"></script>
 
 </body>
 
