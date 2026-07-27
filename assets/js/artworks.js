@@ -182,3 +182,101 @@ const artworks = [
     featured: false,
     image: "assets/images/artworks/prerequisite/cigarettes-after-sex.jpeg"
 },
+
+   /* =========================================
+   TRIBULATIONS OF A GHETTO CHILD
+========================================= */
+
+
+{
+    id: "between-two-worlds",
+    title: "Between Two Worlds",
+    collection: "Tribulations of a Ghetto Child",
+    year: 2026,
+    medium: "Oil on canvas",
+    dimensions: "130 × 150 cm",
+    availability: "On Request",
+    featured: true,
+    image: "assets/images/artworks/tribulations/between-two-worlds.jpeg"
+},
+
+
+{
+    id: "tears-of-an-empty-plate",
+    title: "Tears of an Empty Plate",
+    collection: "Tribulations of a Ghetto Child",
+    year: 2026,
+    medium: "Oil on canvas",
+    dimensions: "130 × 150 cm",
+    availability: "On Request",
+    featured: true,
+    image: "assets/images/artworks/tribulations/tears-of-an-empty-plate.jpeg"
+},
+
+
+{
+    id: "still-she-walks",
+    title: "Still, She Walks",
+    collection: "Tribulations of a Ghetto Child",
+    year: 2026,
+    medium: "Oil on canvas",
+    dimensions: "130 × 150 cm",
+    availability: "On Request",
+    featured: false,
+    image: "assets/images/artworks/tribulations/still-she-walks.jpeg"
+},
+
+
+{
+    id: "raised-in-chaos",
+    title: "Raised in Chaos",
+    collection: "Tribulations of a Ghetto Child",
+    year: 2026,
+    medium: "Oil on canvas",
+    dimensions: "130 × 150 cm",
+    availability: "On Request",
+    featured: true,
+    image: "assets/images/artworks/tribulations/raised-in-chaos.jpeg"
+},
+
+
+{
+    id: "the-raid",
+    title: "The Raid",
+    collection: "Tribulations of a Ghetto Child",
+    year: 2026,
+    medium: "Oil on canvas",
+    dimensions: "130 × 150 cm",
+    availability: "On Request",
+    featured: false,
+    image: "assets/images/artworks/tribulations/the-raid.jpeg"
+},
+
+
+{
+    id: "no-room-for-dreams",
+    title: "No Room for Dreams",
+    collection: "Tribulations of a Ghetto Child",
+    year: 2026,
+    medium: "Oil on canvas",
+    dimensions: "130 × 150 cm",
+    availability: "On Request",
+    featured: false,
+    image: "assets/images/artworks/tribulations/no-room-for-dreams.jpeg"
+},
+
+
+{
+    id: "evicted-childhood",
+    title: "Evicted Childhood",
+    collection: "Tribulations of a Ghetto Child",
+    year: 2026,
+    medium: "Oil on canvas",
+    dimensions: "130 × 150 cm",
+    availability: "On Request",
+    featured: false,
+    image: "assets/images/artworks/tribulations/evicted-childhood.jpeg"
+}
+
+
+];
