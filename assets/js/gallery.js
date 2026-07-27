@@ -74,12 +74,12 @@ document.addEventListener(
 
                             <img
 
-                            src="${artwork.image.medium}"
+                            src="${artwork.image}"
 
                             srcset="
-                            ${artwork.image.small} 700w,
-                            ${artwork.image.medium} 1200w,
-                            ${artwork.image.large} 2000w
+                            ${artwork.image} 700w,
+                            ${artwork.image} 1200w,
+                            ${artwork.image} 2000w
                             "
 
                             sizes="

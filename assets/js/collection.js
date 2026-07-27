@@ -69,7 +69,7 @@ card.innerHTML = `
 
 <img
 
-src="../${artwork.image.medium}"
+src="../${artwork.image}"
 
 alt="${artwork.title}"
 

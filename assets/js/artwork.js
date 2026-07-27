@@ -77,7 +77,7 @@ container.innerHTML = `
 
 <img
 
-src="${artwork.image.large}"
+src="${artwork.image}"
 
 alt="${artwork.title} by Easyblack"
 
