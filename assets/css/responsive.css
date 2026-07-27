@@ -1,0 +1,410 @@
+/* =========================================
+
+   EASYBLACK
+   Responsive Design System
+
+========================================= */
+
+
+
+/* =========================================
+   TABLETS
+========================================= */
+
+
+@media (max-width: 1100px) {
+
+
+    .main-nav {
+
+        gap:1.5rem;
+
+    }
+
+
+
+    .main-nav a {
+
+        font-size:.8rem;
+
+    }
+
+
+
+    .hero-content h1 {
+
+        letter-spacing:.1em;
+
+    }
+
+
+
+    .collections-grid {
+
+        gap:1.5rem;
+
+    }
+
+
+
+}
+
+
+
+
+
+
+/* =========================================
+   MOBILE NAVIGATION
+========================================= */
+
+
+@media (max-width: 850px) {
+
+
+    .site-header {
+
+        padding:1.5rem 6%;
+
+    }
+
+
+
+    .menu-button {
+
+        display:block;
+
+        cursor:pointer;
+
+    }
+
+
+
+    .main-nav {
+
+
+        position:absolute;
+
+        top:100%;
+
+        left:0;
+
+        width:100%;
+
+        background:#0B0B0B;
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:2rem;
+
+        padding:3rem 0;
+
+
+        opacity:0;
+
+        pointer-events:none;
+
+        transform:translateY(-20px);
+
+        transition:.5s ease;
+
+
+    }
+
+
+
+    .main-nav.active {
+
+
+        opacity:1;
+
+        pointer-events:auto;
+
+        transform:translateY(0);
+
+
+    }
+
+
+
+
+
+    .logo {
+
+        font-size:1.6rem;
+
+    }
+
+
+
+
+
+}
+
+
+
+
+
+/* =========================================
+   MOBILE HERO
+========================================= */
+
+
+@media(max-width:700px){
+
+
+    .hero {
+
+
+        height:100svh;
+
+    }
+
+
+
+    .hero-content {
+
+
+        width:90%;
+
+    }
+
+
+
+    .hero-content h1 {
+
+
+        font-size:
+
+        clamp(3rem,16vw,5rem);
+
+
+        letter-spacing:.08em;
+
+
+    }
+
+
+
+    .hero-content p {
+
+
+        font-size:1rem;
+
+
+    }
+
+
+
+    .hero-button {
+
+
+        padding:
+
+        .9rem 2rem;
+
+
+    }
+
+
+
+}
+
+
+
+
+
+/* =========================================
+   MOBILE SECTIONS
+========================================= */
+
+
+@media(max-width:700px){
+
+
+    section {
+
+
+        padding:5rem 0;
+
+
+    }
+
+
+
+    h2 {
+
+
+        font-size:2.5rem;
+
+
+    }
+
+
+
+    .content,
+    .section-heading {
+
+
+        width:88%;
+
+
+    }
+
+
+
+    .narrative-section .lead {
+
+
+        font-size:1.6rem;
+
+
+    }
+
+
+}
+
+
+
+
+
+
+/* =========================================
+   MOBILE COLLECTIONS
+========================================= */
+
+
+@media(max-width:700px){
+
+
+    .collections-section {
+
+
+        width:88%;
+
+
+    }
+
+
+
+    .collections-grid {
+
+
+        grid-template-columns:1fr;
+
+
+    }
+
+
+
+    .collection-card {
+
+
+        min-height:220px;
+
+
+    }
+
+
+
+    .collection-card h3 {
+
+
+        font-size:2.2rem;
+
+
+        text-align:center;
+
+
+    }
+
+
+
+}
+
+
+
+
+
+/* =========================================
+   MOBILE CONTACT
+========================================= */
+
+
+@media(max-width:700px){
+
+
+    .email-link {
+
+
+        font-size:1.8rem;
+
+
+        word-break:break-word;
+
+
+    }
+
+
+
+    .social-links {
+
+
+        flex-direction:column;
+
+
+        gap:1rem;
+
+
+    }
+
+
+}
+
+
+
+
+
+/* =========================================
+   SMALL PHONES
+========================================= */
+
+
+@media(max-width:400px){
+
+
+    .logo {
+
+
+        font-size:1.3rem;
+
+
+    }
+
+
+
+    .hero-content h1 {
+
+
+        font-size:2.8rem;
+
+
+    }
+
+
+
+    .hero-content p {
+
+
+        font-size:.9rem;
+
+
+    }
+
+
+
+}
