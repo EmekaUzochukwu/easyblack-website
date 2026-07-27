@@ -1,0 +1,313 @@
+/* =========================================
+
+   EASYBLACK
+   Collection Exhibition Pages
+
+========================================= */
+
+
+
+/* =========================================
+   COLLECTION HERO
+========================================= */
+
+
+.collection-hero {
+
+    min-height:70vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:8rem 10% 5rem;
+
+}
+
+
+
+.collection-hero h1 {
+
+    font-size:
+
+    clamp(3rem,8vw,7rem);
+
+    line-height:1;
+
+    max-width:1100px;
+
+}
+
+
+
+.collection-hero p {
+
+    margin-top:2rem;
+
+    text-transform:uppercase;
+
+    letter-spacing:.3em;
+
+    font-size:.9rem;
+
+    color:#BCA47A;
+
+}
+
+
+
+
+
+/* =========================================
+   CURATORIAL INTRODUCTION
+========================================= */
+
+
+.collection-introduction {
+
+    width:min(850px,85%);
+
+    margin:0 auto 8rem;
+
+    text-align:center;
+
+}
+
+
+
+.collection-introduction p {
+
+    font-family:
+
+    "Cormorant Garamond",
+
+    serif;
+
+
+    font-size:
+
+    clamp(1.5rem,3vw,2.3rem);
+
+
+    line-height:1.6;
+
+    color:#E5E2DA;
+
+}
+
+
+
+
+
+/* =========================================
+   COLLECTION GALLERY
+========================================= */
+
+
+.collection-gallery {
+
+    width:90%;
+
+    margin:auto;
+
+}
+
+
+
+#collection-gallery {
+
+
+    display:grid;
+
+
+    grid-template-columns:
+
+    repeat(12,1fr);
+
+
+    gap:3rem;
+
+
+}
+
+
+
+
+
+/* =========================================
+   COLLECTION ARTWORK RHYTHM
+========================================= */
+
+
+
+#collection-gallery .artwork-card:nth-child(odd){
+
+    grid-column:
+
+    span 7;
+
+}
+
+
+
+#collection-gallery .artwork-card:nth-child(even){
+
+    grid-column:
+
+    span 5;
+
+    margin-top:8rem;
+
+}
+
+
+
+
+
+/* =========================================
+   COLLECTION ARTWORK INFORMATION
+========================================= */
+
+
+.collection-gallery .artwork-details {
+
+    padding-top:1.5rem;
+
+}
+
+
+
+.collection-gallery h3 {
+
+
+    font-size:
+
+    clamp(1.6rem,3vw,2.5rem);
+
+
+}
+
+
+
+.collection-gallery p {
+
+
+    text-transform:uppercase;
+
+    letter-spacing:.1em;
+
+    font-size:.85rem;
+
+}
+
+
+
+
+
+/* =========================================
+   HOVER EXPERIENCE
+========================================= */
+
+
+.collection-gallery .artwork-card img {
+
+
+    transition:
+
+    transform 1s ease,
+
+    opacity .8s ease;
+
+
+}
+
+
+
+.collection-gallery .artwork-card:hover img {
+
+
+    transform:
+
+    scale(1.04);
+
+
+    opacity:.85;
+
+
+}
+
+
+
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+
+@media(max-width:800px){
+
+
+
+.collection-hero {
+
+
+    min-height:60vh;
+
+
+}
+
+
+
+.collection-hero h1 {
+
+
+    font-size:3rem;
+
+
+}
+
+
+
+.collection-introduction {
+
+
+    margin-bottom:4rem;
+
+
+}
+
+
+
+#collection-gallery {
+
+
+    grid-template-columns:1fr;
+
+    gap:4rem;
+
+
+}
+
+
+
+#collection-gallery .artwork-card,
+#collection-gallery .artwork-card:nth-child(n){
+
+
+    grid-column:span 1;
+
+    margin-top:0;
+
+
+}
+
+
+
+}
