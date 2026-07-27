@@ -53,7 +53,7 @@ document.createElement(
 
 
 card.className =
-"artwork-card";
+"artwork-card visible";
 
 
 
