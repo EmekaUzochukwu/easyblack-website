@@ -23,7 +23,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "60 × 80 cm",
     availability: "On Request",
-    featured: true,
     image: "assets/images/artworks/prerequisite/smoke-and-stripes.jpeg"
 },
 
@@ -36,7 +35,6 @@ const artworks = [
     medium: "Acrylics & Oil on canvas",
     dimensions: "60 × 80 cm",
     availability: "On Request",
-    featured: false,
     image: "assets/images/artworks/prerequisite/honeymoon.jpeg"
 },
 
@@ -49,7 +47,6 @@ const artworks = [
     medium: "Acrylics & Oil on canvas",
     dimensions: "90 × 150 cm",
     availability: "On Request",
-    featured: false,
     image: "assets/images/artworks/prerequisite/no-mans-land.jpeg"
 },
 
@@ -62,7 +59,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "120 × 180 cm",
     availability: "On Request",
-    featured: true,
     image: "assets/images/artworks/prerequisite/to-die-for.jpeg"
 },
 
@@ -75,7 +71,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "80 × 120 cm",
     availability: "On Request",
-    featured: false,
     image: "assets/images/artworks/prerequisite/a-date-in-autumn.jpeg"
 },
 
@@ -88,7 +83,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "80 × 100 cm",
     availability: "On Request",
-    featured: false,
     image: "assets/images/artworks/prerequisite/climax.jpeg"
 },
 
@@ -101,7 +95,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "70 × 90 cm",
     availability: "On Request",
-    featured: false,
     image: "assets/images/artworks/prerequisite/legacy.jpeg"
 },
 
@@ -114,7 +107,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "90 × 90 cm",
     availability: "On Request",
-    featured: false,
     image: "assets/images/artworks/prerequisite/untitled-1.jpeg"
 },
 
@@ -127,7 +119,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "90 × 90 cm",
     availability: "On Request",
-    featured: false,
     image: "assets/images/artworks/prerequisite/untitled-2.jpeg"
 },
 
@@ -140,7 +131,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "150 × 200 cm",
     availability: "On Request",
-    featured: true,
     image: "assets/images/artworks/prerequisite/belindas-secret.jpeg"
 },
 
@@ -153,7 +143,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "150 × 200 cm",
     availability: "On Request",
-    featured: false,
     image: "assets/images/artworks/prerequisite/her-fathers-dilemma.jpeg"
 },
 
@@ -166,7 +155,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "150 × 200 cm",
     availability: "On Request",
-    featured: false,
     image: "assets/images/artworks/prerequisite/a-journey-called-life.jpeg"
 },
 
@@ -179,7 +167,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "100 × 180 cm",
     availability: "On Request",
-    featured: false,
     image: "assets/images/artworks/prerequisite/cigarettes-after-sex.jpeg"
 },
 
@@ -196,7 +183,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    featured: true,
     image: "assets/images/artworks/tribulations/between-two-worlds.jpeg"
 },
 
@@ -209,7 +195,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    featured: true,
     image: "assets/images/artworks/tribulations/tears-of-an-empty-plate.jpeg"
 },
 
@@ -222,7 +207,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    featured: false,
     image: "assets/images/artworks/tribulations/still-she-walks.jpeg"
 },
 
@@ -235,7 +219,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    featured: true,
     image: "assets/images/artworks/tribulations/raised-in-chaos.jpeg"
 },
 
@@ -248,7 +231,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    featured: false,
     image: "assets/images/artworks/tribulations/the-raid.jpeg"
 },
 
@@ -261,7 +243,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    featured: false,
     image: "assets/images/artworks/tribulations/no-room-for-dreams.jpeg"
 },
 
@@ -274,7 +255,6 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    featured: false,
     image: "assets/images/artworks/tribulations/evicted-childhood.jpeg"
 }
 
