@@ -34,10 +34,10 @@ document.addEventListener(
         */
 
         const featuredWorks =
-    artworks.filter(
-        artwork =>
-            artwork.collection === "Tribulations of a Ghetto Child"
-    );
+            artworks.filter(
+                artwork =>
+                    artwork.collection === "Tribulations of a Ghetto Child"
+            );
 
 
 
