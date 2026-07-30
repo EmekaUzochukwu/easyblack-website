@@ -149,3 +149,65 @@ grid-template-columns:1fr;
 
 
 }
+
+
+/* =========================================
+   ARTIST PORTRAIT
+========================================= */
+
+
+.biography-layout {
+
+    display:grid;
+
+    grid-template-columns: 1fr 1.5fr;
+
+    gap:5rem;
+
+    align-items:start;
+
+}
+
+
+
+.artist-image img {
+
+    width:100%;
+
+    height:auto;
+
+    display:block;
+
+}
+
+
+
+.artist-image {
+
+    position:relative;
+
+}
+
+
+
+.biography-text {
+
+    max-width:700px;
+
+}
+
+
+
+@media(max-width:900px){
+
+
+    .biography-layout {
+
+        grid-template-columns:1fr;
+
+        gap:3rem;
+
+    }
+
+
+}
