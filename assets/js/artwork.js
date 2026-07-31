@@ -148,6 +148,12 @@ ${artwork.dimensions}
 
 
 
+${
+artwork.collection === "Prerequisite"
+
+?
+
+`
 <p>
 
 <strong>
@@ -157,6 +163,13 @@ Availability
 ${artwork.availability}
 
 </p>
+`
+
+:
+
+""
+
+}
 
 
 </div>
