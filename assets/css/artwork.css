@@ -299,3 +299,77 @@
 
 
 }
+
+
+
+/* =========================================
+   ARTWORK NAVIGATION
+========================================= */
+
+.artwork-navigation{
+
+    margin:5rem 0 2rem;
+
+}
+
+.back-link{
+
+    display:inline-block;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    opacity:.75;
+
+    transition:.3s;
+
+}
+
+.back-link:hover{
+
+    opacity:1;
+
+}
+
+.artwork-pagination{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:6rem;
+
+    gap:2rem;
+
+}
+
+.artwork-pagination a{
+
+    color:#fff;
+
+    text-decoration:none;
+
+    opacity:.75;
+
+    transition:.3s;
+
+}
+
+.artwork-pagination a:hover{
+
+    opacity:1;
+
+}
+
+@media(max-width:700px){
+
+.artwork-pagination{
+
+    flex-direction:column;
+
+    gap:1.5rem;
+
+}
+
+}
