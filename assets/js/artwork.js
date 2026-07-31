@@ -175,7 +175,8 @@ ${artwork.availability}
 </div>
 
 
-<a href="contact.html"
+<a 
+href="contact.html?artwork=${encodeURIComponent(artwork.title)}"
 class="inquiry-button">
 
 Request Information

@@ -46,7 +46,7 @@ Designed for:
 
 Email:
 
-easyblackoffice@gmail.com
+info@easyblackoffice.com
 
 Instagram:
 

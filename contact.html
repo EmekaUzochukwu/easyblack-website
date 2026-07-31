@@ -114,10 +114,8 @@ For exhibitions, acquisitions, commissions and collaborations.
 
 
 
-<a href="mailto:easyblackoffice@gmail.com">
-
-easyblackoffice@gmail.com
-
+<a href="mailto:info@easyblackoffice.com">
+info@easyblackoffice.com
 </a>
 
 
@@ -148,28 +146,41 @@ X
 
 
 
-<form class="contact-form">
+<form 
+class="contact-form"
+action="https://formspree.io/f/maqrzpyw"
+method="POST">
 
 
 <input
 type="text"
-placeholder="Name">
+id="artwork"
+name="artwork"
+placeholder="Artwork"
+readonly>
 
+
+<input
+type="text"
+name="name"
+placeholder="Name"
+required>
 
 
 <input
 type="email"
-placeholder="Email">
-
+name="email"
+placeholder="Email"
+required>
 
 
 <textarea
-placeholder="Message">
-</textarea>
+name="message"
+placeholder="Message"
+required></textarea>
 
 
-
-<button>
+<button type="submit">
 
 Send Inquiry
 
@@ -180,6 +191,26 @@ Send Inquiry
 
 
 </section>
+
+
+<script>
+
+const params = new URLSearchParams(
+window.location.search
+);
+
+const artwork =
+params.get("artwork");
+
+
+if(artwork){
+
+document.getElementById("artwork").value =
+artwork;
+
+}
+
+</script>
 
 
 <script src="assets/js/app.js"></script>
