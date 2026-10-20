@@ -33,11 +33,18 @@ document.addEventListener(
             Select featured artworks only
         */
 
+        const excludedFromFeatured = [
+            "the-cost-of-living",
+            "unbroken-circle",
+            "distorted-reality"
+    ];
+
         const featuredWorks =
             artworks.filter(
                 artwork =>
-                    artwork.collection === "Tribulations of a Ghetto Child"
-            );
+                    artwork.collection === "Tribulations of a Ghetto Child" &&
+                    !excludedFromFeatured.includes(artwork.id)
+    );
 
 
 

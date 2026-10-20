@@ -256,6 +256,42 @@ const artworks = [
     dimensions: "130 × 150 cm",
     availability: "On Request",
     image: "assets/images/artworks/tribulations/evicted-childhood.jpeg"
+},
+
+
+{
+    id: "the-cost-of-living",
+    title: "The Cost of Living",
+    collection: "Tribulations of a Ghetto Child",
+    year: 2026,
+    medium: "Oil on canvas",
+    dimensions: "130 × 150 cm",
+    availability: "On Request",
+    image: "assets/images/artworks/tribulations/the-cost-of-living.jpeg"
+},
+
+
+{
+    id: "unbroken-circle",
+    title: "Unbroken Circle",
+    collection: "Tribulations of a Ghetto Child",
+    year: 2026,
+    medium: "Oil on canvas",
+    dimensions: "130 × 150 cm",
+    availability: "On Request",
+    image: "assets/images/artworks/tribulations/unbroken-circle.jpeg",
+},
+
+
+{
+    id: "distorted-reality",
+    title: "Distorted Reality",
+    collection: "Tribulations of a Ghetto Child",
+    year: 2026,
+    medium: "Oil on canvas",
+    dimensions: "130 × 150 cm",
+    availability: "On Request",
+    image: "assets/images/artworks/tribulations/distorted-reality.jpeg"
 }
 
 
