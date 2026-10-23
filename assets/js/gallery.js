@@ -36,8 +36,9 @@ document.addEventListener(
         const excludedFromFeatured = [
             "the-cost-of-living",
             "unbroken-circle",
-            "distorted-reality"
-    ];
+            "distorted-reality",
+            "books-turned-to-bricks"
+        ];
 
         const featuredWorks =
             artworks.filter(

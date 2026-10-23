@@ -292,6 +292,18 @@ const artworks = [
     dimensions: "130 × 150 cm",
     availability: "On Request",
     image: "assets/images/artworks/tribulations/distorted-reality.jpeg"
+},
+
+
+{
+    id: "books-turned-to-bricks",
+    title: "Books Turned to Bricks",
+    collection: "Tribulations of a Ghetto Child",
+    year: 2026,
+    medium: "Oil on canvas",
+    dimensions: "130 × 150 cm",
+    availability: "On Request",
+    image: "assets/images/artworks/tribulations/books-turned-to-bricks.jpeg"
 }
 
 
