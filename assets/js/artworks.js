@@ -23,7 +23,12 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "60 × 80 cm",
     availability: "On Request",
-    image: "assets/images/artworks/prerequisite/smoke-and-stripes.jpeg"
+    image: "assets/images/artworks/prerequisite/smoke-and-stripes.jpeg",
+
+    mockups: [
+        "assets/images/artworks/prerequisite/mockups/smoke-and-stripes/sas-1.jpeg",
+        "assets/images/artworks/prerequisite/mockups/smoke-and-stripes/sas-2.jpeg"
+    ]
 },
 
 
@@ -35,7 +40,12 @@ const artworks = [
     medium: "Acrylics & Oil on canvas",
     dimensions: "60 × 80 cm",
     availability: "On Request",
-    image: "assets/images/artworks/prerequisite/honeymoon.jpeg"
+    image: "assets/images/artworks/prerequisite/honeymoon.jpeg",
+
+    mockups: [
+        "assets/images/artworks/prerequisite/mockups/honeymoon/hm-1.jpeg",
+        "assets/images/artworks/prerequisite/mockups/honeymoon/hm-2.jpeg"
+    ]
 },
 
 
@@ -47,7 +57,12 @@ const artworks = [
     medium: "Acrylics & Oil on canvas",
     dimensions: "90 × 150 cm",
     availability: "On Request",
-    image: "assets/images/artworks/prerequisite/no-mans-land.jpeg"
+    image: "assets/images/artworks/prerequisite/no-mans-land.jpeg",
+
+    mockups: [
+        "assets/images/artworks/prerequisite/mockups/no-mans-land/nml-1.jpeg",
+        "assets/images/artworks/prerequisite/mockups/no-mans-land/nml-2.jpeg"
+    ]
 },
 
 
@@ -59,8 +74,14 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "120 × 180 cm",
     availability: "On Request",
-    image: "assets/images/artworks/prerequisite/to-die-for.jpeg"
+    image: "assets/images/artworks/prerequisite/to-die-for.jpeg",
+
+    mockups: [
+        "assets/images/artworks/prerequisite/mockups/to-die-for/tdf-1.jpeg",
+        "assets/images/artworks/prerequisite/mockups/to-die-for/tdf-2.jpeg"
+    ]
 },
+
 
 
 {
@@ -71,8 +92,16 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "80 × 120 cm",
     availability: "On Request",
-    image: "assets/images/artworks/prerequisite/a-date-in-autumn.jpeg"
+    image: "assets/images/artworks/prerequisite/a-date-in-autumn.jpeg",
+
+    mockups: [
+        "assets/images/artworks/prerequisite/mockups/a-date-in-autumn/adia-1.jpeg",
+        "assets/images/artworks/prerequisite/mockups/a-date-in-autumn/adia-2.jpeg",
+        "assets/images/artworks/prerequisite/mockups/a-date-in-autumn/adia-3.jpeg",
+        "assets/images/artworks/prerequisite/mockups/a-date-in-autumn/adia-4.jpeg"
+    ]
 },
+
 
 
 {
@@ -83,7 +112,12 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "80 × 100 cm",
     availability: "On Request",
-    image: "assets/images/artworks/prerequisite/climax.jpeg"
+    image: "assets/images/artworks/prerequisite/climax.jpeg",
+
+    mockups: [
+        "assets/images/artworks/prerequisite/mockups/climax/c-1.jpeg",
+        "assets/images/artworks/prerequisite/mockups/climax/c-2.jpeg"
+    ]
 },
 
 
@@ -95,7 +129,12 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "70 × 90 cm",
     availability: "On Request",
-    image: "assets/images/artworks/prerequisite/legacy.jpeg"
+    image: "assets/images/artworks/prerequisite/legacy.jpeg",
+
+    mockups: [
+        "assets/images/artworks/prerequisite/mockups/legacy/l-1.jpeg",
+        "assets/images/artworks/prerequisite/mockups/legacy/l-2.jpeg"
+    ]
 },
 
 
@@ -107,7 +146,12 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "90 × 90 cm",
     availability: "On Request",
-    image: "assets/images/artworks/prerequisite/untitled-1.jpeg"
+    image: "assets/images/artworks/prerequisite/untitled-1.jpeg",
+
+    mockups: [
+        "assets/images/artworks/prerequisite/mockups/untitled-1/u-1.1.jpeg",
+        "assets/images/artworks/prerequisite/mockups/untitled-1/u-1.2.jpeg"
+    ]
 },
 
 
@@ -119,7 +163,12 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "90 × 90 cm",
     availability: "On Request",
-    image: "assets/images/artworks/prerequisite/untitled-2.jpeg"
+    image: "assets/images/artworks/prerequisite/untitled-2.jpeg",
+
+    mockups: [
+        "assets/images/artworks/prerequisite/mockups/untitled-2/u-2.1.jpeg",
+        "assets/images/artworks/prerequisite/mockups/untitled-2/u-2.2.jpeg"
+    ]
 },
 
 
@@ -131,7 +180,13 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "150 × 200 cm",
     availability: "On Request",
-    image: "assets/images/artworks/prerequisite/belindas-secret.jpeg"
+    image: "assets/images/artworks/prerequisite/belindas-secret.jpeg",
+
+    mockups: [
+        "assets/images/artworks/prerequisite/mockups/belindas-secret/bs-1.jpeg",
+        "assets/images/artworks/prerequisite/mockups/belindas-secret/bs-2.jpeg",
+        "assets/images/artworks/prerequisite/mockups/belindas-secret/bs-3.jpeg"
+    ]
 },
 
 
@@ -143,7 +198,12 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "150 × 200 cm",
     availability: "On Request",
-    image: "assets/images/artworks/prerequisite/her-fathers-dilemma.jpeg"
+    image: "assets/images/artworks/prerequisite/her-fathers-dilemma.jpeg",
+
+    mockups: [
+        "assets/images/artworks/prerequisite/mockups/her-fathers-dilemma/hfd-1.jpeg",
+        "assets/images/artworks/prerequisite/mockups/her-fathers-dilemma/hfd-2.jpeg"
+    ]
 },
 
 
@@ -155,7 +215,13 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "150 × 200 cm",
     availability: "On Request",
-    image: "assets/images/artworks/prerequisite/a-journey-called-life.jpeg"
+    image: "assets/images/artworks/prerequisite/a-journey-called-life.jpeg",
+
+    mockups: [
+        "assets/images/artworks/prerequisite/mockups/a-journey-called-life/ajcl-1.jpeg",
+        "assets/images/artworks/prerequisite/mockups/a-journey-called-life/ajcl-2.jpeg",
+        "assets/images/artworks/prerequisite/mockups/a-journey-called-life/ajcl-3.jpeg"
+    ]
 },
 
 
@@ -167,7 +233,14 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "100 × 180 cm",
     availability: "On Request",
-    image: "assets/images/artworks/prerequisite/cigarettes-after-sex.jpeg"
+    image: "assets/images/artworks/prerequisite/cigarettes-after-sex.jpeg",
+
+    mockups: [
+        "assets/images/artworks/prerequisite/mockups/cigarettes-after-sex/cas-1.jpeg",
+        "assets/images/artworks/prerequisite/mockups/cigarettes-after-sex/cas-2.jpeg",
+        "assets/images/artworks/prerequisite/mockups/cigarettes-after-sex/cas-3.jpeg",
+        "assets/images/artworks/prerequisite/mockups/cigarettes-after-sex/cas-4.jpeg"
+    ]
 },
 
 /* =========================================
