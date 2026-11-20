@@ -468,3 +468,22 @@ footer {
         right: 10px;
     }
 }
+
+
+
+
+
+/* =========================================
+   THE EASYBLACK LETTER
+========================================= */
+
+.newsletter-container iframe {
+    display: block;
+    width: 100%;
+    max-width: 540px;
+    height: 850px;
+    min-height: 850px;
+    margin: 0 auto;
+    border: none;
+    overflow: hidden;
+}
