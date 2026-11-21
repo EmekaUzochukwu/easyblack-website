@@ -34,10 +34,11 @@ document.addEventListener(
         */
 
         const excludedFromFeatured = [
-            "the-cost-of-living",
+            "a-few-seconds-to-dark",
             "unbroken-circle",
             "distorted-reality",
-            "books-turned-to-bricks"
+            "books-turned-to-bricks",
+            "still-she-walks",
         ];
 
         const featuredWorks =

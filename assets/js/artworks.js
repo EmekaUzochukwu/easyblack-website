@@ -273,14 +273,14 @@ const artworks = [
 
 
 {
-    id: "still-she-walks",
-    title: "Still, She Walks",
+    id: "the-cost-of-living",
+    title: "The Cost of Living",
     collection: "Tribulations of a Ghetto Child",
     year: 2026,
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    image: "assets/images/artworks/tribulations/still-she-walks.jpeg"
+    image: "assets/images/artworks/tribulations/the-cost-of-living.jpeg"
 },
 
 
@@ -333,15 +333,16 @@ const artworks = [
 
 
 {
-    id: "the-cost-of-living",
-    title: "The Cost of Living",
+    id: "still-she-walks",
+    title: "Still, She Walks",
     collection: "Tribulations of a Ghetto Child",
     year: 2026,
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    image: "assets/images/artworks/tribulations/the-cost-of-living.jpeg"
+    image: "assets/images/artworks/tribulations/still-she-walks.jpeg"
 },
+
 
 
 {
@@ -377,7 +378,18 @@ const artworks = [
     dimensions: "130 × 150 cm",
     availability: "On Request",
     image: "assets/images/artworks/tribulations/books-turned-to-bricks.jpeg"
-}
+},
 
+
+{
+    id: "a-few-seconds-to-dark",
+    title: "A Few Seconds to Dark",
+    collection: "Tribulations of a Ghetto Child",
+    year: 2026,
+    medium: "Oil on canvas",
+    dimensions: "130 × 150 cm",
+    availability: "On Request",
+    image: "assets/images/artworks/tribulations/a-few-seconds-to-dark.jpeg"
+}
 
 ];
