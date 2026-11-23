@@ -27,7 +27,8 @@ const artworks = [
 
     mockups: [
         "assets/images/artworks/prerequisite/mockups/smoke-and-stripes/sas-1.jpeg",
-        "assets/images/artworks/prerequisite/mockups/smoke-and-stripes/sas-2.jpeg"
+        "assets/images/artworks/prerequisite/mockups/smoke-and-stripes/sas-2.jpeg",
+        "assets/images/artworks/prerequisite/mockups/smoke-and-stripes/sas-3.jpeg"
     ]
 },
 
@@ -44,7 +45,8 @@ const artworks = [
 
     mockups: [
         "assets/images/artworks/prerequisite/mockups/honeymoon/hm-1.jpeg",
-        "assets/images/artworks/prerequisite/mockups/honeymoon/hm-2.jpeg"
+        "assets/images/artworks/prerequisite/mockups/honeymoon/hm-2.jpeg",
+        "assets/images/artworks/prerequisite/mockups/honeymoon/hm-3.jpeg"
     ]
 },
 
@@ -61,7 +63,8 @@ const artworks = [
 
     mockups: [
         "assets/images/artworks/prerequisite/mockups/no-mans-land/nml-1.jpeg",
-        "assets/images/artworks/prerequisite/mockups/no-mans-land/nml-2.jpeg"
+        "assets/images/artworks/prerequisite/mockups/no-mans-land/nml-2.jpeg",
+        "assets/images/artworks/prerequisite/mockups/no-mans-land/nml-3.jpeg"
     ]
 },
 
@@ -78,7 +81,8 @@ const artworks = [
 
     mockups: [
         "assets/images/artworks/prerequisite/mockups/to-die-for/tdf-1.jpeg",
-        "assets/images/artworks/prerequisite/mockups/to-die-for/tdf-2.jpeg"
+        "assets/images/artworks/prerequisite/mockups/to-die-for/tdf-2.jpeg",
+        "assets/images/artworks/prerequisite/mockups/to-die-for/tdf-3.jpeg"
     ]
 },
 
@@ -116,7 +120,9 @@ const artworks = [
 
     mockups: [
         "assets/images/artworks/prerequisite/mockups/climax/c-1.jpeg",
-        "assets/images/artworks/prerequisite/mockups/climax/c-2.jpeg"
+        "assets/images/artworks/prerequisite/mockups/climax/c-2.jpeg",
+        "assets/images/artworks/prerequisite/mockups/climax/c-3.jpeg",
+        "assets/images/artworks/prerequisite/mockups/climax/c-4.jpeg"
     ]
 },
 
@@ -133,7 +139,8 @@ const artworks = [
 
     mockups: [
         "assets/images/artworks/prerequisite/mockups/legacy/l-1.jpeg",
-        "assets/images/artworks/prerequisite/mockups/legacy/l-2.jpeg"
+        "assets/images/artworks/prerequisite/mockups/legacy/l-2.jpeg",
+        "assets/images/artworks/prerequisite/mockups/legacy/l-3.jpeg"
     ]
 },
 
@@ -202,7 +209,8 @@ const artworks = [
 
     mockups: [
         "assets/images/artworks/prerequisite/mockups/her-fathers-dilemma/hfd-1.jpeg",
-        "assets/images/artworks/prerequisite/mockups/her-fathers-dilemma/hfd-2.jpeg"
+        "assets/images/artworks/prerequisite/mockups/her-fathers-dilemma/hfd-2.jpeg",
+        "assets/images/artworks/prerequisite/mockups/her-fathers-dilemma/hfd-3.jpeg"
     ]
 },
 
@@ -220,7 +228,8 @@ const artworks = [
     mockups: [
         "assets/images/artworks/prerequisite/mockups/a-journey-called-life/ajcl-1.jpeg",
         "assets/images/artworks/prerequisite/mockups/a-journey-called-life/ajcl-2.jpeg",
-        "assets/images/artworks/prerequisite/mockups/a-journey-called-life/ajcl-3.jpeg"
+        "assets/images/artworks/prerequisite/mockups/a-journey-called-life/ajcl-3.jpeg",
+        "assets/images/artworks/prerequisite/mockups/a-journey-called-life/ajcl-4.jpeg"
     ]
 },
 
@@ -256,7 +265,14 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    image: "assets/images/artworks/tribulations/between-two-worlds.jpeg"
+    image: "assets/images/artworks/tribulations/between-two-worlds.jpeg",
+
+    mockups: [
+        "assets/images/artworks/tribulations/mockups/between-two-worlds/btw-1.jpeg",
+        "assets/images/artworks/tribulations/mockups/between-two-worlds/btw-2.jpeg",
+        "assets/images/artworks/tribulations/mockups/between-two-worlds/btw-3.jpeg",
+        "assets/images/artworks/tribulations/mockups/between-two-worlds/btw-4.jpeg"
+    ]
 },
 
 
@@ -268,7 +284,14 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    image: "assets/images/artworks/tribulations/tears-of-an-empty-plate.jpeg"
+    image: "assets/images/artworks/tribulations/tears-of-an-empty-plate.jpeg",
+
+    mockups: [
+        "assets/images/artworks/tribulations/mockups/tears-of-an-empty-plate/toaep-1.jpeg",
+        "assets/images/artworks/tribulations/mockups/tears-of-an-empty-plate/toaep-2.jpeg",
+        "assets/images/artworks/tribulations/mockups/tears-of-an-empty-plate/toaep-3.jpeg",
+        "assets/images/artworks/tribulations/mockups/tears-of-an-empty-plate/toaep-4.jpeg"
+    ]
 },
 
 
@@ -280,7 +303,14 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    image: "assets/images/artworks/tribulations/the-cost-of-living.jpeg"
+    image: "assets/images/artworks/tribulations/the-cost-of-living.jpeg",
+
+    mockups: [
+        "assets/images/artworks/tribulations/mockups/the-cost-of-living/tcol-1.jpeg",
+        "assets/images/artworks/tribulations/mockups/the-cost-of-living/tcol-2.jpeg",
+        "assets/images/artworks/tribulations/mockups/the-cost-of-living/tcol-3.jpeg",
+        "assets/images/artworks/tribulations/mockups/the-cost-of-living/tcol-4.jpeg"
+    ]
 },
 
 
@@ -292,7 +322,14 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    image: "assets/images/artworks/tribulations/raised-in-chaos.jpeg"
+    image: "assets/images/artworks/tribulations/raised-in-chaos.jpeg",
+
+    mockups: [
+        "assets/images/artworks/tribulations/mockups/raised-in-chaos/ric-1.jpeg",
+        "assets/images/artworks/tribulations/mockups/raised-in-chaos/ric-2.jpeg",
+        "assets/images/artworks/tribulations/mockups/raised-in-chaos/ric-3.jpeg",
+        "assets/images/artworks/tribulations/mockups/raised-in-chaos/ric-4.jpeg"
+    ]
 },
 
 
@@ -304,7 +341,14 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    image: "assets/images/artworks/tribulations/the-raid.jpeg"
+    image: "assets/images/artworks/tribulations/the-raid.jpeg",
+
+    mockups: [
+        "assets/images/artworks/tribulations/mockups/the-raid/tr-1.jpeg",
+        "assets/images/artworks/tribulations/mockups/the-raid/tr-2.jpeg",
+        "assets/images/artworks/tribulations/mockups/the-raid/tr-3.jpeg",
+        "assets/images/artworks/tribulations/mockups/the-raid/tr-4.jpeg"
+    ]
 },
 
 
@@ -316,7 +360,14 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    image: "assets/images/artworks/tribulations/no-room-for-dreams.jpeg"
+    image: "assets/images/artworks/tribulations/no-room-for-dreams.jpeg",
+
+    mockups: [
+        "assets/images/artworks/tribulations/mockups/no-room-for-dreams/nrfd-1.jpeg",
+        "assets/images/artworks/tribulations/mockups/no-room-for-dreams/nrfd-2.jpeg",
+        "assets/images/artworks/tribulations/mockups/no-room-for-dreams/nrfd-3.jpeg",
+        "assets/images/artworks/tribulations/mockups/no-room-for-dreams/nrfd-4.jpeg"
+    ]
 },
 
 
@@ -328,7 +379,14 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    image: "assets/images/artworks/tribulations/evicted-childhood.jpeg"
+    image: "assets/images/artworks/tribulations/evicted-childhood.jpeg",
+
+    mockups: [
+        "assets/images/artworks/tribulations/mockups/evicted-childhood/ec-1.jpeg",
+        "assets/images/artworks/tribulations/mockups/evicted-childhood/ec-2.jpeg",
+        "assets/images/artworks/tribulations/mockups/evicted-childhood/ec-3.jpeg",
+        "assets/images/artworks/tribulations/mockups/evicted-childhood/ec-4.jpeg"
+    ]
 },
 
 
@@ -340,7 +398,14 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    image: "assets/images/artworks/tribulations/still-she-walks.jpeg"
+    image: "assets/images/artworks/tribulations/still-she-walks.jpeg",
+
+    mockups: [
+        "assets/images/artworks/tribulations/mockups/still-she-walks/ssw-1.jpeg",
+        "assets/images/artworks/tribulations/mockups/still-she-walks/ssw-2.jpeg",
+        "assets/images/artworks/tribulations/mockups/still-she-walks/ssw-3.jpeg",
+        "assets/images/artworks/tribulations/mockups/still-she-walks/ssw-4.jpeg"
+    ]
 },
 
 
@@ -354,6 +419,13 @@ const artworks = [
     dimensions: "130 × 150 cm",
     availability: "On Request",
     image: "assets/images/artworks/tribulations/unbroken-circle.jpeg",
+
+    mockups: [
+        "assets/images/artworks/tribulations/mockups/unbroken-circle/uc-1.jpeg",
+        "assets/images/artworks/tribulations/mockups/unbroken-circle/uc-2.jpeg",
+        "assets/images/artworks/tribulations/mockups/unbroken-circle/uc-3.jpeg",
+        "assets/images/artworks/tribulations/mockups/unbroken-circle/uc-4.jpeg"
+    ]
 },
 
 
@@ -365,7 +437,14 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    image: "assets/images/artworks/tribulations/distorted-reality.jpeg"
+    image: "assets/images/artworks/tribulations/distorted-reality.jpeg",
+
+    mockups: [
+        "assets/images/artworks/tribulations/mockups/distorted-reality/dr-1.jpeg",
+        "assets/images/artworks/tribulations/mockups/distorted-reality/dr-2.jpeg",
+        "assets/images/artworks/tribulations/mockups/distorted-reality/dr-3.jpeg",
+        "assets/images/artworks/tribulations/mockups/distorted-reality/dr-4.jpeg"
+    ]
 },
 
 
@@ -377,7 +456,14 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    image: "assets/images/artworks/tribulations/books-turned-to-bricks.jpeg"
+    image: "assets/images/artworks/tribulations/books-turned-to-bricks.jpeg",
+
+    mockups: [
+        "assets/images/artworks/tribulations/mockups/books-turned-to-bricks/bttb-1.jpeg",
+        "assets/images/artworks/tribulations/mockups/books-turned-to-bricks/bttb-2.jpeg",
+        "assets/images/artworks/tribulations/mockups/books-turned-to-bricks/bttb-3.jpeg",
+        "assets/images/artworks/tribulations/mockups/books-turned-to-bricks/bttb-4.jpeg"
+    ]
 },
 
 
@@ -389,7 +475,13 @@ const artworks = [
     medium: "Oil on canvas",
     dimensions: "130 × 150 cm",
     availability: "On Request",
-    image: "assets/images/artworks/tribulations/a-few-seconds-to-dark.jpeg"
-}
+    image: "assets/images/artworks/tribulations/a-few-seconds-to-dark.jpeg",
 
+    mockups: [
+        "assets/images/artworks/tribulations/mockups/a-few-seconds-to-dark/afstd-1.jpeg",
+        "assets/images/artworks/tribulations/mockups/a-few-seconds-to-dark/afstd-2.jpeg",
+        "assets/images/artworks/tribulations/mockups/a-few-seconds-to-dark/afstd-3.jpeg",
+        "assets/images/artworks/tribulations/mockups/a-few-seconds-to-dark/afstd-4.jpeg"
+    ]
+}
 ];
